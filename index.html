@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LiDAR Point Cloud Viewer</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <div id="app"></div>
+    <div id="overlay">
+      <h1>LiDAR Point Cloud Viewer</h1>
+      <div id="info"></div>
+      <div id="legend"></div>
+      <p class="hint">
+        Drag &amp; drop a KITTI <code>.bin</code>, <code>label_2</code> + <code>calib</code> <code>.txt</code>,
+        or a prediction <code>.json</code>. <kbd>&larr;</kbd>/<kbd>&rarr;</kbd> steps frames.
+      </p>
+    </div>
+    <div id="drop-zone">Drop files to load</div>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
