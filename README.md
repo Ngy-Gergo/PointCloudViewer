@@ -4,8 +4,6 @@ Browser-based 3D viewer for KITTI LiDAR point clouds, built with Three.js.
 It colors points by height and draws 3D bounding boxes from KITTI ground-truth
 labels and from detector predictions exported as JSON.
 
-**Live demo:** https://ngy-gergo.github.io/PointCloudViewer/
-
 <!-- Add a screenshot or GIF here: docs/screenshot.png -->
 
 ## Features
